@@ -1,0 +1,73 @@
+.mainLayout {
+  min-height: 100vh;
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: var(--radius);
+  max-width: 1200px;
+  width: 100%;
+}
+
+.worksContainer {
+  display: flex;
+  gap: 20px;
+  padding-left: 5px;
+}
+
+.worksPreview, .works {
+  border-radius: var(--radius);
+}
+
+.worksPreview {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.work {
+  margin: 0;
+  width: 100%;
+}
+
+.workImage {
+  width: 100%;
+  display: block;
+  border-radius: var(--radius);
+}
+
+.workDescription {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .worksContainer {
+    flex-wrap: wrap-reverse;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .mainLayout {
+    padding: 0;
+  }
+
+  .worksContainer, .mainContainer {
+    gap: 10px;
+  }
+
+  .mainContainer {
+    border-radius: 0px;
+  }
+}

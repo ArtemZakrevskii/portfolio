@@ -1,0 +1,78 @@
+:root {
+  --radius: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 18px;
+  color: #CACACA;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: black;
+  position: relative;
+  background-image: url(/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#root {
+  min-height: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+h2, h3 {
+  color: white;
+  margin: 0 0 10px 0;
+  line-height: 20px;
+}
+
+h4 {
+  margin: 10px 0 5px 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: white;
+}
+
+.swiper-pagination-bullet-active {
+  color: rgb(149, 178, 247);
+  font-weight: bolder;
+}
+
+.swiper-slide {
+  height: 0px;
+}
+
+.swiper-slide-active {
+  height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
