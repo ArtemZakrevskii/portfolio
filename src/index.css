@@ -57,13 +57,13 @@ a:hover {
   margin-bottom: 0!important;
 }
 
-:where(.css-dev-only-do-not-override-1km3mtt).ant-tabs-card >.ant-tabs-nav .ant-tabs-tab-active,
-:where(.css-dev-only-do-not-override-1km3mtt).ant-tabs-card >div>.ant-tabs-nav .ant-tabs-tab-active {
+.ant-tabs-card >.ant-tabs-nav .ant-tabs-tab-active,
+.ant-tabs-card >div>.ant-tabs-nav .ant-tabs-tab-active {
   background: #CACACA;
 }
 
-:where(.css-dev-only-do-not-override-1km3mtt).ant-tabs-card.ant-tabs-top >.ant-tabs-nav .ant-tabs-tab-active,
-:where(.css-dev-only-do-not-override-1km3mtt).ant-tabs-card.ant-tabs-top >div>.ant-tabs-nav .ant-tabs-tab-active {
+.ant-tabs-card.ant-tabs-top >.ant-tabs-nav .ant-tabs-tab-active,
+.ant-tabs-card.ant-tabs-top >div>.ant-tabs-nav .ant-tabs-tab-active {
   border-bottom-color: #CACACA;
  }
 
