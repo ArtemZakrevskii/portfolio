@@ -58,8 +58,8 @@ export const Others = () => {
               </p>
               <p>{el.description}</p>
             </figcaption>
-            <a href={`/img/other/${i + 1}.jpg`} target="_blank" rel="noreferrer">
-              <img src={`/img/other/${i + 1}.jpg`} width="100%" alt="prev" />
+            <a href={`img/other/${i + 1}.jpg`} target="_blank" rel="noreferrer">
+              <img src={`img/other/${i + 1}.jpg`} width="100%" alt="prev" />
             </a>
           </figure>
         </SwiperSlide>

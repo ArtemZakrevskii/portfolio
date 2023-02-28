@@ -72,8 +72,8 @@ export const Entropy = () => {
                   </i>
                 </p>
               </figcaption>
-              <a href={`/img/entropy/${i + 1}.jpg`} target="_blank" rel="noreferrer">
-                <img src={`/img/entropy/${i + 1}.jpg`} width="100%" alt="prev" />
+              <a href={`img/entropy/${i + 1}.jpg`} target="_blank" rel="noreferrer">
+                <img src={`img/entropy/${i + 1}.jpg`} width="100%" alt="prev" />
               </a>
             </figure>
             <p>{el.description}</p>
