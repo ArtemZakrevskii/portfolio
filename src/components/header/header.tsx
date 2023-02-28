@@ -5,9 +5,6 @@ export const Header = () => (
   <section className={styles.header}>
     <div className={styles.info}>
       <div className={styles.avatar}>
-        <div className={styles.avatarFrame}>
-          <img src="img/avatar-frame.png" alt="avatar frame" />
-        </div>
         <div className={styles.avatarContainer}>
           <img src="img/avatar.jpg" alt="avatar" />
         </div>
@@ -26,6 +23,7 @@ export const Header = () => (
           Being truly inspired by games, modern art, science fiction and travelling.
         </p>
         <div>
+          <br />
           <h3>Work experience</h3>
           <p>Jan 2023 - Present</p>
           <p>
@@ -39,12 +37,12 @@ export const Header = () => (
     </div>
     <div className={styles.profession}>
       <h2>Concept artist / 2d artist</h2>
-      <h4>Tech Stack</h4>
+      <h4>Skills</h4>
       <p className={styles.skills}>
-        Photoshop, Blender, Autocad, Sketching concept designs and key elements of the visual style,
-        Applying textures to all visual elements, Adding lighting and shading effects to all elements, ensuring consistency in color, intensity and lighting levels,
-        Advanced understanding of visual language - texture, color, dimension, scale, perspective, shade, composition depth of field, proportion, spatial awareness,
-        Solid knowledge of game genres and latest trends in gaming
+        Photoshop, Blender, Autocad, <br /> Sketching concept designs and key elements of the visual style,
+        Applying textures to all visual elements, <br /> Adding lighting and shading effects to all elements, ensuring consistency in color, intensity and lighting levels,
+        <br /> Advanced understanding of visual language - texture, color, dimension, scale, perspective, shade, composition depth of field, proportion, spatial awareness,
+        <br /> Solid knowledge of game genres and latest trends in gaming
       </p>
       <h4>Language skills</h4>
       <p>Russian: Native</p>

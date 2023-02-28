@@ -7,8 +7,7 @@ import styles from './main.module.css';
 export const Main = () => {
   const data = [
     { name: 'Project Entropy', element: <Entropy /> },
-    { name: 'Other works', element: <Others /> },
-    { name: 'Come', element: <Others /> }] as const;
+    { name: 'Other works', element: <Others /> }] as const;
 
   return (
     <main className={styles.mainLayout}>

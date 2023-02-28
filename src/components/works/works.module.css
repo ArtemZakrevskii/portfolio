@@ -3,3 +3,19 @@
   padding: 0;
   text-align: center;
 }
+
+.tabTitle {
+position: relative;
+margin-bottom: 15px;
+}
+
+.tabTitle::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 150px);
+  width: 300px;
+  height: 1px;
+  background: #d3d1d1;
+}
