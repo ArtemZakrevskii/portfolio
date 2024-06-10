@@ -77,4 +77,8 @@ a:hover {
   html {
     font-size: 12px;
   }
+
+  .ant-image {
+    width: 100% !important;
+   }
 }
