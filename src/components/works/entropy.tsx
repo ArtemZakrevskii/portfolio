@@ -1,5 +1,6 @@
 import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Image } from 'antd';
 import styles from './works.module.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -72,9 +73,15 @@ export const Entropy = () => {
                   </i>
                 </p>
               </figcaption>
-              <a href={`img/entropy/${i + 1}.jpg`} target="_blank" rel="noreferrer">
-                <img src={`img/entropy/${i + 1}.jpg`} width="100%" alt="prev" />
-              </a>
+              <Image
+                width={500}
+                src={`img/entropy/prev/${i + 1}.webp`}
+                placeholder
+                preview={{
+                  src: `img/entropy/${i + 1}.webp`,
+                }}
+                alt={`Entropy work ${i + 1}`}
+              />
             </figure>
             <p>{el.description}</p>
           </SwiperSlide>

@@ -6,13 +6,13 @@ export const Header = () => (
     <div className={styles.info}>
       <div className={styles.avatar}>
         <div className={styles.avatarContainer}>
-          <img src="img/avatar.jpg" alt="avatar" />
+          <img src="img/avatar.webp" alt="avatar" />
         </div>
       </div>
       <div className={styles.name}>
         <h2>Artem Zakrevskii</h2>
         <p>
-          I'm 29 years old. Have Engineer degree.
+          I'm 30 years old. Have Engineer degree.
         </p>
         <p>
           2D Artist, Character Artist, based in Łódź, Poland. Specialized on Concept Art

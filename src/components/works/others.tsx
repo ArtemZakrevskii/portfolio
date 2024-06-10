@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
+import { Image } from 'antd';
 import styles from './works.module.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -58,9 +59,15 @@ export const Others = () => {
               </p>
               <p>{el.description}</p>
             </figcaption>
-            <a href={`img/other/${i + 1}.jpg`} target="_blank" rel="noreferrer">
-              <img src={`img/other/${i + 1}.jpg`} width="100%" alt="prev" />
-            </a>
+            <Image
+              width={500}
+              src={`img/other/prev/${i + 1}.webp`}
+              placeholder
+              preview={{
+                src: `img/other/${i + 1}.webp`,
+              }}
+              alt={`Other work ${i + 1}`}
+            />
           </figure>
         </SwiperSlide>
       ))}
