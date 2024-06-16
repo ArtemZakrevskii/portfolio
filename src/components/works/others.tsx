@@ -1,56 +1,13 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper';
-import { Image } from 'antd';
+import { Carousel, Image } from 'antd';
+import { othersData } from "./data";
 import styles from './works.module.css';
-import 'swiper/css';
-import 'swiper/css/navigation';
 
 export const Others = () => {
-  const data = [
-    {
-      id: 'data1',
-      title: 'Deat knight" Game art for the world of warcraft',
-      description: 'The death knight, after being freed from the influence of the Lich King, returned home',
-    },
-    {
-      id: 'data2',
-      title: 'Deat knight" Game art for the world of warcraft',
-      description: 'The death knight, after being freed from the influence of the Lich King, returned home',
-    },
-    {
-      id: 'data3',
-      title: 'Deat knight" Game art for the world of warcraft',
-      description: 'The death knight, after being freed from the influence of the Lich King, returned home',
-    },
-    {
-      id: 'data4',
-      title: '"Jinx" game art for league of legends',
-      description: '',
-    },
-    {
-      id: 'data5',
-      title: '"Blood Elf" Game art for the world of warcraft. ',
-      description: 'Getting condemned by a squirrel, as the forest burned down along with the soldiers of the alliance',
-    },
-    {
-      id: 'data6',
-      title: '"Blood Elf" Game art for the world of warcraft. ',
-      description: 'Getting condemned by a squirrel, as the forest burned down along with the soldiers of the alliance',
-    },
-  ];
-
   return (
-    <Swiper
-      simulateTouch
-      touchAngle={10}
-      navigation
-      grabCursor
-      modules={[Navigation]}
-      autoHeight
-    >
-      {data.map((el, i) => (
-        <SwiperSlide key={el.id}>
-          <figure className={styles.figureField}>
+    <Carousel arrows infinite={false} adaptiveHeight draggable>
+      {othersData.map((el, i) => (
+        <div key={el.id}>
+          <figure className={`${styles.figureField} ${styles.others}`}>
             <figcaption>
               <p>
                 <i>
@@ -69,8 +26,8 @@ export const Others = () => {
               alt={`Other work ${i + 1}`}
             />
           </figure>
-        </SwiperSlide>
+        </div>
       ))}
-    </Swiper>
+    </Carousel>
   );
 };

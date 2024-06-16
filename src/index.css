@@ -67,6 +67,49 @@ a:hover {
   border-bottom-color: #CACACA;
  }
 
+ .ant-carousel .slick-slider {
+   cursor: grab;
+   color: #CACACA;
+ }
+
+ .ant-carousel .slick-prev {
+   left: 0;
+ }
+
+ .ant-carousel .slick-next {
+   right: 0;
+ }
+
+ .ant-carousel .slick-prev,
+ .ant-carousel .slick-next,
+ .ant-carousel .slick-prev:hover,
+ .ant-carousel .slick-next:hover {
+   z-index: 1000;
+   font-size: 0;
+ }
+
+ .ant-carousel .slick-prev::before,
+ .ant-carousel .slick-next::before {
+   font-size: 36px;
+   font-weight: 700;
+   color: #007aff;
+   cursor: pointer;
+ }
+
+ .ant-carousel .slick-next::before {
+   content: '〱';
+   display: block;
+   transform: rotate(180deg);
+ }
+
+ .ant-carousel .slick-prev::before {
+   content: '〱';
+ }
+
+.ant-carousel .slick-dots-bottom {
+  bottom: 0;
+ }
+
 @media screen and (max-width: 1200px) {
   html {
     font-size: 14px;
@@ -80,5 +123,10 @@ a:hover {
 
   .ant-image {
     width: 100% !important;
+   }
+
+   .ant-carousel .slick-prev::before,
+   .ant-carousel .slick-next::before {
+     font-size: 20px;
    }
 }
