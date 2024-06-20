@@ -8,7 +8,7 @@ export const Main = () => {
   const data = [
     { name: 'Project Entropy', element: <Entropy /> },
     { name: 'Other works', element: <Others /> }] as const;
-
+  // картинки в столбик, под каждой текст без слайдера
   return (
     <main className={styles.mainLayout}>
       <div className={styles.mainContainer}>

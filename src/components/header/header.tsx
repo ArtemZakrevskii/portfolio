@@ -4,47 +4,54 @@ import styles from './header.module.css';
 export const Header = () => (
   <section className={styles.header}>
     <div className={styles.info}>
-      <div className={styles.avatar}>
-        <div className={styles.avatarContainer}>
-          <img src="img/avatar.webp" alt="avatar" />
-        </div>
-      </div>
       <div className={styles.name}>
-        <h2>Artem Zakrevskii</h2>
+        <h2>Artem Zakrevskii | Concept Artist / 2D Artist</h2>
         <p>
-          I'm 30 years old. Have Engineer degree.
+          Concept artist with 2 years of experience and a strong
+          background in engineering.
         </p>
         <p>
-          2D Artist, Character Artist, based in Łódź, Poland. Specialized on Concept Art
-          Illustration.
+          Proficient in Photoshop.
+          Familiar with 3ds Max and Zbrush.
         </p>
         <p>
-          Hardworking and passionate, devoted to my work. Self-motivated and always ready to learn.
-          Being truly inspired by games, modern art, science fiction and travelling.
+          Specialize in character
+          concepts while also skilled in environment, prop, and
+          other visual elements. Good at innovative and
+          unexpected solutions, blending creative vision with
+          technical expertise.
         </p>
-        <div>
-          <br />
-          <h3>Work experience</h3>
-          <p>Jan 2023 - Present</p>
-          <p>
-            <a href="https://www.iplaymore.com/" target="_blank" rel="noreferrer">IMU STUDIOS.</a>
-            {' '}
-            Concept artist
-          </p>
+        <div className={styles.container}>
+          <div>
+            <br />
+            <h3>Work experience</h3>
+            <p>2022</p>
+            <p>
+              Freelance Concept Artist
+            </p>
+            <br />
+            <p>Jan 2023 - Present</p>
+            <p>
+              <a href="https://www.iplaymore.com/" target="_blank" rel="noreferrer">IMU STUDIOS.</a>
+              {' '}
+              Concept Artist
+            </p>
+          </div>
+          <Contacts />
         </div>
-        <Contacts />
       </div>
     </div>
     <div className={styles.profession}>
-      <h2>Concept artist / 2d artist</h2>
-      <h4>Skills</h4>
-      <p className={styles.skills}>
-        Photoshop, Blender, Autocad, <br /> Sketching concept designs and key elements of the visual style,
-        Applying textures to all visual elements, <br /> Adding lighting and shading effects to all elements, ensuring consistency in color, intensity and lighting levels,
-        <br /> Advanced understanding of visual language - texture, color, dimension, scale, perspective, shade, composition depth of field, proportion, spatial awareness,
-        <br /> Solid knowledge of game genres and latest trends in gaming
-      </p>
-      <h4>Language skills</h4>
+      <h2>Skills</h2>
+      <ul className={styles.skills}>
+        <li className={styles.skillsItem}>Digital Painting</li>
+        <li>Concept Art</li>
+        <li>Character Design</li>
+        <li>Illustration</li>
+        <li>Photoshop</li>
+        <li>AI Tools</li>
+      </ul>
+      <h4>Languages</h4>
       <p>Russian: Native</p>
       <p>English: Intermediate (B1)</p>
       <p>Polish: Intermediate (B1)</p>

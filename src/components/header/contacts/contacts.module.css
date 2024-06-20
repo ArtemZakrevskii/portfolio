@@ -8,6 +8,7 @@
 
 .socials {
   display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 
@@ -16,20 +17,21 @@
 }
 
 .socialLink {
-  width: 30px;
-  height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .socialImg {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 30px;
+  height: 30px;
   fill: #cacaca;
   transition: fill 0.5s, transform 0.5s;
 }
 
 .socialLink:hover .socialImg {
-  transform: translateY(-5px);
+  transform: translateX(-5px);
   fill: white;
 }
 
