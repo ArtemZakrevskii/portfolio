@@ -15,15 +15,7 @@ export const Main = () => {
         <Header />
         <section className={styles.worksContainer}>
           <div className={styles.worksPreview}>
-            <Tabs
-              type="card"
-              items={data.map((item, i) => ({
-                label: item.name,
-                key: String(i + 1),
-                children: item.element,
-              }))}
-              style={{ color: '#CACACA' }}
-            />
+            <Entropy />
           </div>
         </section>
       </div>

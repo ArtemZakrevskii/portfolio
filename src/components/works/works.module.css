@@ -2,23 +2,23 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  position: relative;
 }
 
-.tabTitle {
-position: relative;
-margin-bottom: 15px;
-}
-
-.tabTitle::before {
+.figureField::before {
   content: "";
   display: block;
   position: absolute;
-  bottom: -10px;
+  top: -10px;
   left: calc(50% - 150px);
   width: 300px;
   height: 1px;
   background: #d3d1d1;
 }
+
+.tabTitle {
+  margin-bottom: 15px;
+  }
 
 .description {
   padding-bottom: 25px;

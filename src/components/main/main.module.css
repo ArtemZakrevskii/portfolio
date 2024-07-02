@@ -27,29 +27,12 @@
   padding-left: 5px;
 }
 
-.worksPreview, .works {
-  border-radius: var(--radius);
-}
-
 .worksPreview {
+  border-radius: var(--radius);
+  font-size: 14px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   padding: 20px;
-}
-
-.work {
-  margin: 0;
-  width: 100%;
-}
-
-.workImage {
-  width: 100%;
-  display: block;
-  border-radius: var(--radius);
-}
-
-.workDescription {
-  margin-top: 10px;
 }
 
 @media screen and (max-width: 1200px) {

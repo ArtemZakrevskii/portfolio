@@ -35,12 +35,6 @@
   fill: white;
 }
 
-@media screen and (max-width: 550px) {
-  .socialLink {
-    width: 20px;
-    height: 20px;
-  }
-}
 @media screen and (max-width: 375px) {
   .email {
     font-size: 14px;

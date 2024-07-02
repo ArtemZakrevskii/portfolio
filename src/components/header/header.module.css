@@ -35,22 +35,19 @@
   gap: 10px;
 }
 
-@media screen and (max-width: 1200px) {
-  .info {
-    width: 50%;
-    min-width: 50%;
-  }
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
+@media screen and (max-width: 1200px) {
   .name {
     padding: 20px;
   }
-
-  .profession {
-    width: 50%;
-  }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 768px) {
   .header {
     flex-direction: column;
     gap: 10px;
@@ -62,6 +59,26 @@
   }
 
   .profession {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
   }
+
+.languages {
+  margin: 0 10px 0 0;
+}
+
+ }
+
+@media screen and (max-width: 550px) {
+  .container {
+    flex-direction: column;
+  }
+
+  
+.experience {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
  }

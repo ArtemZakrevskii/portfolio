@@ -1,4 +1,4 @@
-import { Carousel, Image } from 'antd';
+import { Flex, Image } from 'antd';
 import { entropyData } from "./data";
 import styles from './works.module.css';
 
@@ -9,7 +9,7 @@ export const Entropy = () => {
         This portfolio is based on a game project ‘Entropy’ that I have been working on for the last
         year. Going deep into the details of the lore I designed characters and a plot of the story.
       </p>
-      <Carousel arrows infinite={false} adaptiveHeight draggable>
+      <Flex vertical gap={15}>
         {entropyData.map((el, i) => (
           <div key={el.id}>
             <figure className={styles.figureField}>
@@ -34,7 +34,7 @@ export const Entropy = () => {
             <p className={styles.description}>{el.description}</p>
           </div>
         ))}
-      </Carousel>
+      </Flex>
       <h4><i>A few words about my project</i></h4>
       <p>
         The project is created in a grimdark style where the leitmotif of the whole narrative is the question
