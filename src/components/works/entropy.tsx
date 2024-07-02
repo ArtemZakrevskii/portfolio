@@ -23,10 +23,10 @@ export const Entropy = () => {
               <Image
                 className={styles.image}
                 width={500}
-                src={`img/entropy/prev/${i + 1}.webp`}
+                src={`img/entropy-new/prev/${i + 1}.webp`}
                 placeholder
                 preview={{
-                  src: `img/entropy/${i + 1}.webp`,
+                  src: `img/entropy-new/${i + 1}.webp`,
                 }}
                 alt={`Entropy work ${i + 1}`}
               />
