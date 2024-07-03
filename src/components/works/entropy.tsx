@@ -22,7 +22,7 @@ export const Entropy = () => {
               </figcaption>}
               <Image
                 className={styles.image}
-                width={500}
+                width={700}
                 src={`img/entropy-new/prev/${i + 1}.webp`}
                 placeholder
                 preview={{
