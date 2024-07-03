@@ -6,6 +6,7 @@ import sprite from '../../../assets/icons/sprite.svg';
 export const Contacts = () => {
   const socials = [
     { id: 'linkedin', link: 'https://www.linkedin.com/in/artem-zakrevskii-2dartist/', text: "LinkedIn" },
+    { id: 'artstation', link: 'https://www.artstation.com/artemzakrevskii', text: 'ArtStation', },
     { id: 'email', link: 'mailto:artem.zakrevskii93@gmail.com', text: "Artem.zakrevskii93@gmail.com" }] as const;
 
   return (
@@ -24,18 +25,18 @@ export const Contacts = () => {
           </svg>
           <span>Download CV</span>
         </a>
-        {socials.map((el) => (
+        {socials.map(({ id, link, text }) => (
           <a
-            key={el.id}
-            href={el.link}
+            key={id}
+            href={link}
             className={styles.socialLink}
             target="_blank"
             rel="noreferrer"
           >
             <svg className={styles.socialImg}>
-              <use xlinkHref={`${sprite}#${el.id}`} />
+              <use xlinkHref={`${sprite}#${id}`} />
             </svg>
-            {el.text}
+            {text}
           </a>
         ))}
       </div>

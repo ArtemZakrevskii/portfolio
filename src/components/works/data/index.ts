@@ -1,43 +1,43 @@
-export const entropyData = [
+type Data = {
+  id: string;
+  title?: string;
+  description: string;
+}
+
+export const entropyData: Data[] = [
   {
     id: 'ent1',
-    title: 'Sounds of gunfire have stopped and the noise of breaking spine bones came out in silence.',
-    description: 'A team of geologists with the protagonist arrived to Antarctica, the Wilk Land crater. Protected by a private military company they came to explore an abandoned autonomous research station that hovered over the ice sheet fault. The team went down to the signal and found a complex of underground facilities.',
+    title: 'Hierarch of "Cargo" Cult',
+    description: 'Ironically, a non-believer in the divine nature of the Black Veil became the Hierarch of the cult. Driven by a thirst for knowledge and truth, he carved a bloody path to the top.',
   },
   {
     id: 'ent2',
-    title: 'Sounds of gunfire have stopped and the noise of breaking spine bones came out in silence.',
-    description: 'A team of geologists with the protagonist arrived to Antarctica, the Wilk Land crater. Protected by a private military company they came to explore an abandoned autonomous research station that hovered over the ice sheet fault. The team went down to the signal and found a complex of underground facilities.',
+    description: 'Hierarch of the "Cargo" Cult - the supreme leader of the cult, possesses the experience and knowledge of all Hierarchs, as well as the secrets of the cult.',
   },
   {
     id: 'ent3',
-    title: 'A massive figure with huge metal wings reflecting the sunshine pierced through the clouds above the cliff and froze in the sky. Her bottomless black eyes terrified me. She reached me out blinding me with her shining and I slowly started losing my consciousness. I wanted to find a salvation. I tried so hard and got so far. But in the end I lost everything. And now it doesn`t even matter. This final journey is such a beautiful place.',
-    description: 'A strict isolation was implemented to eliminate the influence on the development of civilization. The minds of intruders are extracted, defragmented and examined in details. These measures are necessary in order to defence secrecy. ',
+    description: '\"The Black Veil\" is the foundation of the cult\'s technology and their way of life. Despite not understanding the principles behind its operation, the patterns they do know have transformed into rituals and ceremonies.',
   },
   {
     id: 'ent4',
-    title: 'A massive figure with huge metal wings reflecting the sunshine pierced through the clouds above the cliff and froze in the sky. Her bottomless black eyes terrified me. She reached me out blinding me with her shining and I slowly started losing my consciousness. I wanted to find a salvation. I tried so hard and got so far. But in the end I lost everything. And now it doesn`t even matter. This final journey is such a beautiful place.',
-    description: 'A strict isolation was implemented to eliminate the influence on the development of civilization. The minds of intruders are extracted, defragmented and examined in details. These measures are necessary in order to defence secrecy. ',
+    description: 'Turnaround',
   },
   {
     id: 'ent5',
-    title: '‘Dive into water and relax, it will soothe you and wash all the negative thoughts away’',
-    description: 'This active neuroenvironment allows us to improve and properly structure the work of any types of nerosystems. We can use it in different energy states to support the functions of our systems.',
+    title: 'Convergence, descendant of Ethernials',
+    description: 'Convergence - an unfathomable intellect, for whom the passage of time is like an old, repeatedly read book, one he is doomed to read over and over again.',
   },
   {
     id: 'ent6',
-    title: 'By the age of 30 my life is nothing but a Groundhog Day. Was it all worth it paying my limbs and taking part in never-ending wars? God knows how deeply exhausted I am.',
-    description: 'The protagonist was born in 2137. She is 30 years old by the moment the story starts. It`s Northern Union (authoritarian technocratic state in Scandinavian countries). During the military operation and being a soldier of a private military company she lost her limbs in Cairo wasteland. Since that moment she has had the synthetic muscle-powered prosthetic legs and arms.',
+    description: 'It can assume various forms. The Ethernials were created in its image, and it led them. Together, they existed within the universe, and as it neared \"heat death,\" they regenerated it, continuing their existence.',
   },
   {
     id: 'ent7',
-    title: 'By the age of 30 my life is nothing but a Groundhog Day. Was it all worth it paying my limbs and taking part in never-ending wars? God knows how deeply exhausted I am.',
-    description: 'The protagonist was born in 2137. She is 30 years old by the moment the story starts. It`s Northern Union (authoritarian technocratic state in Scandinavian countries). During the military operation and being a soldier of a private military company she lost her limbs in Cairo wasteland. Since that moment she has had the synthetic muscle-powered prosthetic legs and arms.',
+    description: 'The body, created from the Primordial Veil, a material capable of transmitting and transforming energy and form, is merely an instrument. The consciousness is stored within a sphere on the head, which also serves as a source of energy.',
   },
   {
     id: 'ent8',
-    title: 'Once you step on the forbidden land you inevitably pass into oblivion. ',
-    description: 'Taking various shapes and in cooperation with other systems they protect the secrets of continent existence night and day. Not a single attempt of interaction with this civilization is allowed.',
+    description: 'Turnaround',
   },
 ];
 

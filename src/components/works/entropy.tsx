@@ -13,13 +13,13 @@ export const Entropy = () => {
         {entropyData.map((el, i) => (
           <div key={el.id}>
             <figure className={styles.figureField}>
-              <figcaption>
+              {el.title && <figcaption>
                 <p>
                   <i>
                     {el.title}
                   </i>
                 </p>
-              </figcaption>
+              </figcaption>}
               <Image
                 className={styles.image}
                 width={500}

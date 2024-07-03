@@ -15,6 +15,10 @@
   padding: 10px;
 }
 
+.name {
+  padding-bottom: 0;
+}
+
 .profession {
   width: 35%;
   border-radius: var(--radius);
@@ -43,7 +47,7 @@
 
 @media screen and (max-width: 1200px) {
   .name {
-    padding: 20px;
+    padding: 20px 20px 0;
   }
 }
 
@@ -62,6 +66,10 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+  }
+
+  .skills {
+    margin-bottom: 0;
   }
 
 .languages {
